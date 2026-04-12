@@ -1,7 +1,7 @@
 import random
 
 def Juego_del_ahorcado():
-    palabras = ["gato", "ecuador", "aventurura", "agua", "hola","bienvenido", "mandarina"] 
+    palabras = ["gato", "ecuador", "aventura", "agua", "hola","bienvenido", "mandarina"] 
     palabra_oculta = random.choice(palabras)
     letras_reveladas = ["_"] * len(palabra_oculta)
     intentos = 6
