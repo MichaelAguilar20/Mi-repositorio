@@ -20,8 +20,8 @@ Lo que aqui hize fue llevarar el juago a lo digil programado en python. para que
 
 [Demo]
 ## Screenshots
-
-![imagen alt]()
+![imagen alt](ahorcado inicio.png)
+![imagen alt](ahorcado final.png)
 
 
 # Explicación principales funcionalidades del código.
