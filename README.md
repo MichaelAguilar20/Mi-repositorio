@@ -22,7 +22,7 @@ Lo que aqui hize fue llevarar el juago a lo digil programado en python. para que
 [Demo](https://github.com/MichaelAguilar20/Mi-repositorio.git)
 ## Screenshots
 
-![imagen alt](https://github.com/MichaelAguilar20/Mi-repositorio/blob/db695c129ffe22532639548d6d051405eecba55f/diagrama%20de%20flujo/_Diagrama%20de%20flujo.jpeg)
+![imagen alt]()
 
 
 # Explicación principales funcionalidades del código.
@@ -70,9 +70,6 @@ Lo que aqui hize fue llevarar el juago a lo digil programado en python. para que
 * Al final, si el usuario presiona "s",  para juegar de nuevo  o si prciona "n" para salir del juego, el código llama a la función Juego_del_ahorcado() dentro de sí misma o salir.
 Esto se conoce como reinicio y permite volver a empezar el juego desde cero sin cerrar el programa.  
 
-6. Tecnologías utilizadas.
-
-* Lenguaje: Python 
 
 * Módulos: random (para la selección aleatoria de la palabra).
 ## Tecnoloias
