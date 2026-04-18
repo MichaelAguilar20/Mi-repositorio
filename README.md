@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 ## Ficha del Proyecto
 Nombre: Michael Wilfrido Aguilar Andrade
 
@@ -78,3 +79,5 @@ Esto se conoce como reinicio y permite volver a empezar el juego desde cero sin 
 
 **Import random:** 
 
+=======
+>>>>>>> db695c129ffe22532639548d6d051405eecba55f
