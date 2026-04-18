@@ -18,7 +18,7 @@ Lo que aqui hize fue llevarar el juago a lo digil programado en python. para que
 ## Demo
 
 
-[Demo]
+[Demo](https://github.com/MichaelAguilar20/Mi-repositorio.git)
 ## Screenshots
 ![imagen alt](https://github.com/MichaelAguilar20/Mi-repositorio/blob/cae43f2ee867312a90d570cacfd57e54767f927b/ahorcado%20inicio.png)
 ![imagen alt](https://github.com/MichaelAguilar20/Mi-repositorio/blob/cae43f2ee867312a90d570cacfd57e54767f927b/ahorcado%20final.png)
