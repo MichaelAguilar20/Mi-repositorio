@@ -1,5 +1,3 @@
-
-<<<<<<< HEAD
 ## Ficha del Proyecto
 Nombre: Michael Wilfrido Aguilar Andrade
 
@@ -20,7 +18,7 @@ Lo que aqui hize fue llevarar el juago a lo digil programado en python. para que
 ## Demo
 
 
-[Demo](https://github.com/MichaelAguilar20/Mi-repositorio.git)
+[Demo]
 ## Screenshots
 
 ![imagen alt]()
@@ -78,6 +76,3 @@ Esto se conoce como reinicio y permite volver a empezar el juego desde cero sin 
 **Paython:** 
 
 **Import random:** 
-
-=======
->>>>>>> db695c129ffe22532639548d6d051405eecba55f

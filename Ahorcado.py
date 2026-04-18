@@ -1,68 +1,89 @@
 import random
-[    
-    '''
-       +---+
-       |   |
-           |
-           |
-           |
-           |
-    =========
-    ''', 
-    '''
-       +---+
-       |   |
-       O   |
-           |
-           |
-           |
-    =========
-    ''',
-    '''
-       +---+
-       |   |
-       O   |
-       |   |
-           |
-           |
-    =========
-    ''',
-    '''
-       +---+
-       |   |
-       O   |
-      /|   |
-           |
-           |
-    =========
-    ''',
-    '''
-       +---+
-       |   |
-       O   |
-      /|\  |
-           |
-           |
-    =========
-    ''',
-    '''
-       +---+
-       |   |
-       O   |
-      /|\  |
-      / \  |
-           |
-    =========
-    ''',
-]
-def Juego_del_ahorcado():
-    palabras = ["gato", "ecuador", "aventura", "agua", "hola","bienvenido", "mandarina"] 
+def Juego_del_ahorcado(): 
+    IMAGENES_AHORCADO = ['''
+      +---+
+      |   |
+          |
+          |
+          |
+          |
+    =========''', '''
+      +---+
+      |   |
+      O   |
+          |
+          |
+          |
+    =========''', '''
+      +---+
+      |   |
+      O   |
+      |   |
+          |
+          |
+    =========''', '''
+      +---+
+      |   |
+      O   |
+     /|   |
+          |
+          |
+    =========''', '''
+      +---+
+      |   |
+      O   |
+     /|\  |
+          |
+          |
+    =========''', '''
+      +---+
+      |   |
+      O   |
+     /|\  |
+     /    |
+          |
+    =========''', '''
+      +---+
+      |   |
+      O   |
+     /|\  |
+     / \  |
+          |
+    =========''']
+    
+    IMAGENES_AHORCADO.reverse()
+    
+    
+    print("Selecciona un nivel de dificulta1d: ")
+    print("1. Fácil ")
+    print("2. Medio ")
+    print("3. Difícil ")
+    
+    opcion = input("Elige: ")
+    
+    if opcion == "1":
+        palabras = ["gato", "agua", "hola", "sol", "casa"]
+    elif opcion == "2":
+        palabras = ["ecuador", "aventura", "mandarina", "pintura"]
+    elif opcion == "3":
+        palabras = ["bienvenido", "electrodomestico", "espectaculo", "hipopotamo"]
+    else: 
+        print("Opción no válida, usando lista por defecto.")
+        palabras = ["gato", "agua", "hola", "sol", "casa", "bienvenido", 
+                    "electrodomestico", "espectaculo", "hipopotamo",
+                    "ecuador", "aventura", "mandarina", "pintura"
+                    ]
+        
+    
     palabra_oculta = random.choice(palabras)
     letras_reveladas = ["_"] * len(palabra_oculta)
     intentos = 6
+    
     letras_usadas = []
     print("Bienvenido al juego de Ahorcado")
     while intentos > 0:
+        
+        print(IMAGENES_AHORCADO[intentos])
         print(f"\nPalabra: {' '.join(letras_reveladas)}")
         print(f"Letras usadas: {', '.join(letras_usadas)}")
         print(f"Vidas restantes: {intentos}")
@@ -79,10 +100,12 @@ def Juego_del_ahorcado():
         else:
             print(f"No,es la letra '{letra}' no está.")
             intentos -=1
+           
         if "_" not in letras_reveladas:
             print(f"\nAdivino la palabra: {palabra_oculta}")
             break
     else:
+        print(IMAGENES_AHORCADO[0])
         print("perdido")
         print(f"La palabra es: {palabra_oculta}")
         print("Jugar de nuevo")
