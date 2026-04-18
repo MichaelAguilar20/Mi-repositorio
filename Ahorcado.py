@@ -1,5 +1,60 @@
 import random
-
+[    
+    '''
+       +---+
+       |   |
+           |
+           |
+           |
+           |
+    =========
+    ''', 
+    '''
+       +---+
+       |   |
+       O   |
+           |
+           |
+           |
+    =========
+    ''',
+    '''
+       +---+
+       |   |
+       O   |
+       |   |
+           |
+           |
+    =========
+    ''',
+    '''
+       +---+
+       |   |
+       O   |
+      /|   |
+           |
+           |
+    =========
+    ''',
+    '''
+       +---+
+       |   |
+       O   |
+      /|\  |
+           |
+           |
+    =========
+    ''',
+    '''
+       +---+
+       |   |
+       O   |
+      /|\  |
+      / \  |
+           |
+    =========
+    ''',
+]
 def Juego_del_ahorcado():
     palabras = ["gato", "ecuador", "aventura", "agua", "hola","bienvenido", "mandarina"] 
     palabra_oculta = random.choice(palabras)
